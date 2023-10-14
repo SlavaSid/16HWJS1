@@ -41,7 +41,7 @@ function renderRow(date, img, temp) {
     
 navigator.geolocation.getCurrentPosition(
     function (position) {
-        fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=b840a0bd0069942bd7b12a2f58f18778&units=metric`)
+        fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=a94d0a5ac08570add4b47b8da933f247&units=metric`)
         .then(response => {
             if(!response.ok){
              console.error('не верное значение')
