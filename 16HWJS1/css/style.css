@@ -17,7 +17,7 @@ body {
 }
 
 .base {
-  background-color: rgb(32, 99, 143);
+  background-color: rgb(130, 105, 23);
   padding: 10px;
   color: white;
   font-family: "M PLUS 1p", sans-serif;
@@ -44,14 +44,15 @@ body {
 }
 
 .bottom__item {
+  background-color: chartreuse;
   padding: 5px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgb(32, 99, 143);
+  border: 1px solid rgb(130, 105, 23);
 }
 .bottom__item .left {
-  margin-right: 50px;
+  margin-right: 40px;
   display: block;
 }
 
