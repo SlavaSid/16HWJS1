@@ -8,38 +8,38 @@ body {
   background-color: black;
 }
 
-.sect {
+.wrapper {
   background-color: white;
   width: 400px;
   margin: auto;
   padding: 20px;
 }
 
-.top {
+.base {
   background-color: rgb(32, 99, 143);
   padding: 10px;
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.top__center {
+.base__center {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.top__center p {
-  margin-bottom: 5px;
+.base__center p {
+  padding: 5px;
 }
-.top .top-town {
+.base .base-town {
   padding-bottom: 10px;
 }
-.top__bottom {
+.base__bottom {
   display: flex;
   justify-content: space-between;
 }
 
 .bottom__item {
-  padding: 5px 5px;
+  padding: 5px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,4 +52,12 @@ body {
 
 img {
   height: 55px;
+}
+
+.base__bottom-speed {
+  padding-right: 6px;
+}
+
+.base__bottom-text {
+  padding-left: 6px;
 }/*# sourceMappingURL=style.css.map */

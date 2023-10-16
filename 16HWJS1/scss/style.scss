@@ -8,13 +8,13 @@ body {
     
     background-color: black;
 }
-.sect {
+.wrapper {
     background-color: white;
     width: 400px;
     margin: auto;
     padding: 20px;
 }
-.top {
+.base {
     background-color: rgb(32, 99, 143);
     padding: 10px;
     
@@ -29,11 +29,11 @@ body {
         align-items: center;
 
         p {
-            margin-bottom: 5px;
+            padding: 5px;
         }
     }
 
-    .top-town {
+    .base-town {
         padding-bottom: 10px;
         
     }
@@ -41,13 +41,13 @@ body {
     &__bottom {
         display: flex;
         justify-content: space-between;
-    
+        
     }
 }
 
 .bottom {
     &__item {
-        padding: 5px 5px;
+        padding: 5px 15px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -61,3 +61,10 @@ body {
 img {
     height: 55px;
 }
+.base__bottom-speed {
+    padding-right: 6px;
+}
+.base__bottom-text {
+    padding-left: 6px;}
+
+  
