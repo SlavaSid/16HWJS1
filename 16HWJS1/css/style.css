@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: "M PLUS 1p", sans-serif;
   font-size: 15px;
   background-color: black;
 }
@@ -20,7 +21,6 @@ body {
   background-color: rgb(130, 105, 23);
   padding: 10px;
   color: white;
-  font-family: "M PLUS 1p", sans-serif;
 }
 .base__center {
   display: flex;
@@ -52,7 +52,7 @@ body {
   border: 1px solid rgb(130, 105, 23);
 }
 .bottom__item .left {
-  margin-right: 40px;
+  margin-right: 49px;
   display: block;
 }
 
