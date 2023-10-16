@@ -17,11 +17,11 @@ function renderMain(town, img, event, temp, speed) {
     }, 1000);
     divTopCenter.insertAdjacentHTML('beforeend', `
     <img src="./images/${img}.png" alt="icon" >
-    <p class="top__center-event">${event}</p>
-    <p class="top__center-temp">${Math.round(temp)} °C</p>
+    <p>${event}</p>
+    <span class="flot">${Math.round(temp)} °C</span>
     `);
-    baseBottomText.textContent = 'Speed'
-    baseBottomSpeed.textContent = `${speed.toFixed(1)} m/s`
+    baseBottomText.textContent = `Speed`;
+    baseBottomSpeed.textContent = `${speed.toFixed(1)} m/s`;
 }
 
 function renderRow(date, img, temp) {

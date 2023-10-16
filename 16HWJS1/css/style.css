@@ -5,6 +5,7 @@
 }
 
 body {
+  font-size: 15px;
   background-color: black;
 }
 
@@ -19,23 +20,27 @@ body {
   background-color: rgb(32, 99, 143);
   padding: 10px;
   color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "M PLUS 1p", sans-serif;
 }
 .base__center {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .base__center p {
-  padding: 5px;
+  padding: 10px 0;
+}
+.base__center .flot {
+  display: inline-block;
+  vertical-align: top;
 }
 .base .base-town {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 .base__bottom {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
 }
 
 .bottom__item {
@@ -56,8 +61,4 @@ img {
 
 .base__bottom-speed {
   padding-right: 6px;
-}
-
-.base__bottom-text {
-  padding-left: 6px;
 }/*# sourceMappingURL=style.css.map */

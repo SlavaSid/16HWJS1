@@ -5,7 +5,7 @@
 }
 
 body {
-    
+    font-size: 15px;
     background-color: black;
 }
 .wrapper {
@@ -20,27 +20,33 @@ body {
     
 
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "M PLUS 1p", sans-serif;
+
 
     &__center {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
 
         p {
-            padding: 5px;
+            padding: 10px 0;
+           }
+           .flot {
+                display: inline-block;
+                vertical-align: top;
+                    
         }
     }
 
     .base-town {
-        padding-bottom: 10px;
+        padding-bottom: 5px;
         
     }
 
     &__bottom {
         display: flex;
         justify-content: space-between;
+        padding-top: 20px;
         
     }
 }
@@ -64,7 +70,5 @@ img {
 .base__bottom-speed {
     padding-right: 6px;
 }
-.base__bottom-text {
-    padding-left: 6px;}
 
   
